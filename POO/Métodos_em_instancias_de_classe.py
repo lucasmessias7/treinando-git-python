@@ -7,6 +7,8 @@ class Carro:
     
     
 gol = Carro('gol')
-print(gol.nome)
-gol.acelerar()
+'''print(gol.nome)
+gol.acelerar()'''
+
+
 print()

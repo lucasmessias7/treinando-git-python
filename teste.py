@@ -16,10 +16,10 @@ while (leitor != senha):
         print('tente novamente') '''
         
 
-contador = 0
+'''contador = 0
 somador = 0
 while contador < 2:
  contador = contador * 1
  valor = float(input('Digite o '+str(contador)+'º valor: '))
  somador = somador + valor
-print('Soma = ', somador)
+print('Soma = ', somador)'''
