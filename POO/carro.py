@@ -1,28 +1,25 @@
 class Carro:
-    
+
     def __init__(self, acelerar, direcao = False):
         self.acelerar = acelerar
-        self.direcao = direcao
-        
+        self.direcao = direcao 
         print('direção:')
         print('esquerda...direita...frente...ré')
-        
+  
         acelerar = input('ir para qual direção: ')
-        
-        if acelerar.upper == 'parar':
-            print('Carro parado..')
-            return
-        elif acelerar.upper == 'frente':
-            print('carro andando para frente...')
-            return
-        elif acelerar.upper == 'ré':
-            print('carro dando ré.....lá ele')
-        
-        
-        
-    '''    if acelerar_carro == 'parar':
-            break
-        else:
-            continue'''
+        while True:
+            if acelerar == 'sair':
+                print('desligando carro')
+                break
+            if acelerar == 'direita':
+                print('carro virando a direita...')
+                
+            elif acelerar == 'esquerda':
+                print('carro virando a esquerda...')
+                
+            elif acelerar == 'frente':
+                print('carro indo para frente...')
+                
+
     
-carro = Carro('andar')
+carro = Carro('andar', 'desligado')

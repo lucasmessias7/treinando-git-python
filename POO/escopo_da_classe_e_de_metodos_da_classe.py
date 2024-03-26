@@ -46,8 +46,11 @@ class Camera:
 
         print(f'{self.nome} está fotografando...')    
     
-    
+    ## CRIAR UM JOGO ONDE A PESSOA FAZ AS ESCOLHAS DE QUAL DIREÇÃO O CARRO ANDA.
     
 c1 = Camera('Canom')
 c2 = Camera('Pixon')
 c3 = Camera('Sony')
+
+Camera.fotografa(c2)
+Camera.filmar(c2)
