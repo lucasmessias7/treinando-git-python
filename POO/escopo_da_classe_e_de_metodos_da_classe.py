@@ -52,5 +52,5 @@ c1 = Camera('Canom')
 c2 = Camera('Pixon')
 c3 = Camera('Sony')
 
-Camera.fotografa(c2)
-Camera.filmar(c2)
+c2.filmar()
+c2.filmar()
