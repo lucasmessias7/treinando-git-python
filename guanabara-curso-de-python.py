@@ -78,7 +78,7 @@
 #         print(i)
 
 
-'''                    EXERCICIO 7                          '''
+'''                    EXERCICIO 7        não consegui realizar                  '''
 
 '''soma = 0 
 for i in range(1,500, 3):
@@ -107,16 +107,60 @@ for i in range(1,500, 3):
 
 
 ''''                    EXERCICIO 9                            '''
-lista = 0
-for i in range(0,6):
-    soma = int(input('digite um número: '))
-    if soma % 2 == 0:
-        lista+=soma   
-    else:
-        continue
-print('a soma dos numeros pares é: ',lista)
+# lista = 0
+# for i in range(0,6):
+#     soma = int(input('digite um número: '))
+#     if soma % 2 == 0:
+#         lista+=soma   
+#     else:
+#         continue
+# print('a soma dos numeros pares é: ',lista)
         
 
+''''                    EXERCICIO 10                            '''
+
+# termo = int(input('coloque o inicio da PA: '))
+# razao = int(input('Coloque a razao da PA: '))
+# n=10
+
+# ultimo = termo + (n-1)*razao
+# ultimo = ultimo + 1
+
+# for i in range(termo,ultimo ,razao):
+#     print(i)
+    
+    
+    
+''''                    EXERCICIO 11                     '''     
         
+'''primo = int(input('digite um número inteiro: '))
+
+for i in range(1, primo):
+    if primo > 1:
+       inte=  primo % i == 0
+       print('não é primo!')
+        '''
+
         
+
+def calc_imc():
+    peso =float(input('digite seu peso: '))
+    altura = float(input('digite sua altura: '))
+    for i in range(0,1):
+        imc =peso / (altura * altura)
+        if imc < 18.5:
+            print(f'seu imc é: {imc:.1f} ,Só a capa do batman')
+        elif imc < 24.9:
+            print(f'seu imc é: {imc:.1f} tá frango, mas está bom.')
+        elif imc < 29.9:
+            print(f'seu imc é: {imc:.1f} está virando uma rolhazinha de poço')
+        elif imc < 39.9:
+            print(f'seu imc é: {imc:.1f} calma o chupeta de baleia')
+        else:
+            print(f'seu imc é: {imc:.1f} Seu peso está desequilibrando o planeta terra')
+        
+
+CalculadoraImc = calc_imc()
+
+
 
